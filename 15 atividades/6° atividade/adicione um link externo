@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link para o YouTube</title>
+</head>
+<body>
+    <h1>Bem-vindo à minha página!</h1>
+    <p>Confira este vídeo incrível no YouTube:</p>
+    <a href="https://www.youtube.com" target="_blank">Assistir no YouTube</a>
+</body>
+</html>
