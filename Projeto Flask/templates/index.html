@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial_scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'respostas12345678.css') }}">
+    <title>Minhas Primeiras Respostas</title>
+</head>
+<body>
+    <h1>Site de Respostas</h1>
+    <p>Este foi construído para demonstrar as respostas dos exercícios<strong></p>
+    <img src="{{ url_for('static', filename= 'images\image.jpg') }}" alt="Imagem Representativa">
+    <ul>
+        <li>Site de exemplo</li>
+        <li>Treinamento de comandos</li>
+        <li>Introdução ao Front-end</li>    
+    </ul>
+    <ol>
+        <li>Esse é o primeiro projeto</li>
+        <li>Consulte o site de documentação oficial</li>
+        <li>Projetos exigem tempo</li>
+    </ol>
+    <p>Consulte esse site para realizar pesquisas: <a href="https://www.google.com" target="_blank">Site para busca</a></p>
+    <table>
+        <tr>
+            <th>Produto/Serviço</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Consultoria para manutenção:</td>
+            <td>R$50,00</td>
+        </tr>
+        <tr>
+            <td>Formatação de Computadores e Pendrives:</td>
+            <td>R$80,00</td>
+        </tr>
+        <tr>
+            <td>Limpeza e Montagem de Computadores:</td>
+            <td>R$250,00</td>
+        </tr>
+    </table>
+    <button onclick="">Página de Contato</button>
+    <h1>Formulário</h1>
+    <form action="/contato" method="POST">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="email">E-mail: </label>
+        <input type="email" id="Labelemail" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem: </label>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea>
+    </form>
+
+    <h1>Escolha um tema</h1>
+    <form action="#" method="post">
+        <label for="tema">Selecione um tema:</label>
+        <select id="tema" name="tema">
+            <option value="tecnologia">Tecnologia</option>
+            <option value="educacao">Educação</option>
+            <option value="saude">Saúde</option>
+        </select>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <h1>Citação Importante</h1>
+    <blockquote cite="www.vinogloborural.com.br">
+        "A tecnologia um dia vai acabar com a Familia Real Britânica." - Neymar Jr.
+    </blockquote>
+    <h1>Vídeo abaixo:</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XOXMwsq7ACs?si=LFf35gJY18GKSO9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Questão 14</h1>
+    <p><a href="#secaoImportante">Ir para a tal seção importante</a></p>
+    <p>Exemplo de conteúdo 1</p>
+    <hr>
+    <p>Exemplo de conteúdo 2</p>
+    <hr>
+    <p>Exemplo de conteúdo 3</p>
+    <hr>
+    <footer>
+        <p>&copy; 2024, Alucinações do Maurinho. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

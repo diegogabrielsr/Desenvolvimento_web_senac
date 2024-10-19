@@ -1,0 +1,60 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+
+p{
+    font-family:'Arial';
+    font-size: 21px;
+}
+
+img{
+    border: 10px solid #4CAF50;
+    border-radius: 25px; /* Arredonda muito as extremidades da imagem */
+}
+
+ul{
+    list-style-type: square;
+}
+
+ul li{
+    font-weight: bold; /* Torna o texto em negrito */
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse; /* remove os espaços nas bordas da tabela */
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr :nth-child(even){
+    background-color: purple;
+}
+
+tr:nth-child(odd){
+    background-color: orangered;
+}
+
+th{
+    background-color: aqua;
+    color: white
+}
+
